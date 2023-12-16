@@ -1,0 +1,14 @@
+/* Add your styles here */
+/* Buraya CSS stilleri eklenecek */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: calc(20% - 10px);
+  margin-bottom: 20px;
+  /* 20% genişlik, 5 sütunlu düzende 20px boşluk bırakacak */
+}
